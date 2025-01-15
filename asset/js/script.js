@@ -1,3 +1,4 @@
+//Conversor 
 
 const getValor = async() => {
     const valor = document.getElementById("pesos").value
@@ -35,6 +36,8 @@ const getValor = async() => {
     
 };
 getValor()
+
+//Gráfico
 
 async function datosGrafico(moneda_tipo){
     try {
