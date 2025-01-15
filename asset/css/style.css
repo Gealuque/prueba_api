@@ -1,13 +1,13 @@
 body{
-    background-color: black;
+    background-color: #f4f4f4;
 }
 .container{
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 .caja_1{
@@ -58,9 +58,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .pintado{
-    width:300px;
-    height:300px;
+    width:700px;
+    height:350px;
+    background-color: #f4f4f4;
 }

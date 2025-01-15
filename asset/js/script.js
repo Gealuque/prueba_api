@@ -51,6 +51,7 @@ async function datosGrafico(moneda_tipo){
         if(window.chartInstance){
             window.chartInstance.destroy();
         }
+
         window.chartInstance = new Chart(ctx, { 
             type : "line",
             data: {
@@ -80,11 +81,6 @@ async function datosGrafico(moneda_tipo){
                     beginAtZero: false
                 }
             },
-            elements: {
-                line: {
-                    backgroundColor: 'rgba(255, 255, 255)'
-                }
-            }
         });
 
     } catch (error) {
