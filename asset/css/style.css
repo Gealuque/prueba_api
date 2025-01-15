@@ -23,11 +23,16 @@ body{
     width: 180px;
     height: 30px;
     border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .selector{
     width: 180px;
     height: 30px;
     border-radius: 10px;
+    display: flex;
+    text-align: center;
 }
 .caja_2{
     padding-top: 20px;
@@ -45,4 +50,17 @@ body{
     border-radius: 10px;
     width: 180px;
     height: 40px;
+}
+
+.caja_grafico{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pintado{
+    width:300px;
+    height:300px;
 }
